@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <title>Section 1 | 클로버</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="exhibition.css" />
+</head>
+<body>
+  <button class="back-button is-hero" onclick="location.href='index.html#floor1'">&lt; main</button>
+
+  <div id="exhibition-wrapper">
+    <section class="panel panel-hero">
+        <div class="hero-container">
+            <div class="hero-left">
+            <img src="img/clover/clover-poster.png" class="hero-poster" />
+            </div>
+            <div class="hero-right">
+            <div class="hero-text">
+                <p class="hero-lead">만약에… 삶의 모든 것을 바꿀 기회, 제안을 받다.</p>
+                <p class="hero-body">
+                수많은 갈등 끝에 자신의 답을 찾아가는 정인의 모습.<br>
+                악마 헬렐의 제안을 넘어선 성장과 깨달음의 순간을 만납니다.
+                </p>
+                <p class="hero-quote">“옹달에서 피어난 작은 꽃은 하나라”</p>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="scroll-hint" id="scrollHint" aria-hidden="true">
+        <button class="scroll-hint__btn" type="button">
+            Scroll to exhibition &gt;
+        </button>
+    </div>
+
+    <style>
+        .panel-hero {
+            background: #000000;
+        }
+    </style>
+
+    <!-- 전시 벽  -->
+    <section class="panel panel-gallery">
+    <div class="gallery-wall">
+        <figure class="gallery-item item-01">
+            <img src="img/clover/clover-01.jpg" alt="클로버 정인 01" />
+            <figcaption class="gallery-num">01</figcaption>
+        </figure>
+
+        <figure class="gallery-item item-02">
+            <img src="img/clover/clover-02.jpg" alt="클로버 정인 02" />
+            <figcaption class="gallery-num">02</figcaption>
+        </figure>
+
+        <figure class="gallery-item item-03">
+            <img src="img/clover/clover-03.jpg" alt="클로버 정인 03" />
+            <figcaption class="gallery-num">03</figcaption>
+        </figure>
+
+        <figure class="gallery-item item-04">
+            <img src="img/clover/clover-04.jpg" alt="클로버 정인 04" />
+            <figcaption class="gallery-num">04</figcaption>
+        </figure>
+
+        <figure class="gallery-item item-05">
+            <img src="img/clover/clover-05.jpg" alt="클로버 정인 05" />
+            <figcaption class="gallery-num">05</figcaption>
+        </figure>
+
+        <figure class="gallery-item item-06">
+            <img src="img/clover/clover-06.jpg" alt="클로버 정인 06" />
+            <figcaption class="gallery-num">06</figcaption>
+        </figure>
+    </div>
+
+    <div class="gallery-next">
+        <a class="next-link" href="junhee.html">Next Section &gt;</a>
+    </div>
+
+    </section>
+  </div>
+
+    <div class="lightbox" aria-hidden="true">
+        <div class="lightbox-inner">
+            <img class="lightbox-img" />
+        </div>
+    </div>
+
+
+  <script src="exhibition.js"></script>
+</body>
+</html>

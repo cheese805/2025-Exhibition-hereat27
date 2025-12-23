@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HERE AT 27 | Main</title>
+    <link rel="stylesheet" href="main.css" />
+</head>
+<body>
+    <div id="pc-popup">
+        <div class="pc-popup-box">
+            <p>이 페이지는 모바일 화면에 최적화되어 있습니다.<br>
+            모바일 기기에서의 관람을 권장드립니다.</p>
+            <button id="pc-popup-close">닫기</button>
+        </div>
+    </div>
+
+    <div class="bg-layer"></div>
+    <div class="bg-overlay"></div>
+    <div class="bottom-gradient"></div>
+
+    <div class="mobile-main snap-section">
+    <div class="main-wrapper">
+        <img src="img/poster.png" alt="Poster" class="poster" />
+
+        <div class="bottom-panel">
+        <img src="img/scroll.png" alt="Scroll" class="scroll-icon" />
+        <p class="scroll-text">Scroll to View Brochure</p>
+        </div>
+    </div>
+    </div>
+
+
+<section id="brochure" class="brochure snap-section">
+  <div class="brochure-track">
+    <section class="brochure-panel brochure-guide panel-guide">
+      <div class="page page-guide">
+        <h1 class="page-title">Exhibition<br>Guide</h1>
+
+        <div class="page-body">
+          <p class="page-lead">
+            <strong>HERE AT 27</strong>은 배우 홍성원의 2025년을 기록한<br>온라인 사진전입니다.
+          </p>
+          <p class="page-text">
+            각기 다른 작품 속에서 만들어진 표정과 움직임을 따라<br>
+            한 해의 무대를 시각적으로 펼쳐 보입니다.
+          </p>
+
+          <h2 class="page-subtitle">관람 안내</h2>
+          <ul class="page-list">
+            <li>Floor Map에서 원하는 전시 구역을 선택해 입장할 수 있습니다.</li>
+            <li>각 작품을 터치하면 크게 감상할 수 있습니다.</li>
+            <li>좌우 스크롤로 구역과 층을 이동할 수 있습니다.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="brochure-panel brochure-floor brochure-floor1 panel-floor1">
+        <div class="page page-floor">
+            <h1 class="page-title">Floor<br>Map</h1>
+            <p class="floor-label">1F</p>
+
+            <div class="floor-map floor-map-1f">
+            <img src="img/Floor Map 1F.svg" alt="Floor Map 1F" class="floor-map-image">
+
+            <button class="floor-zone zone-1"
+                    data-href="clover.html"
+                    aria-label="존 1"></button>
+
+            <button class="floor-zone zone-2"
+                    data-href="junhee.html"
+                    aria-label="존 2"></button>
+
+            <button class="floor-zone zone-3"
+                    data-href="dogcat.html"
+                    aria-label="존 3"></button>
+
+            <button class="floor-zone zone-special"
+                    data-href="special.html"
+                    aria-label="스페셜 존"></button>
+            </div>
+
+            <ol class="floor-list">
+            <li>
+                <a href="clover.html">
+                <span class="num">1</span>
+                <span class="title">뮤지컬 클로버</span>
+                <span class="desc">안녕 거기 낯선 존재</span>
+                </a>
+            </li>
+            <li>
+                <a href="junhee.html">
+                <span class="num">2</span>
+                <span class="title">뮤지컬 무명, 준희</span>
+                <span class="desc">온 세상이 내게 말을 걸어</span>
+                </a>
+            </li>
+            <li>
+                <a href="dogcat.html">
+                <span class="num">3</span>
+                <span class="title">뮤지컬 개와 고양이의 시간</span>
+                <span class="desc">푸른 숲의 냄새와 오렌지색 태양</span>
+                </a>
+            </li>
+            <li class="special">
+                <a href="special.html">
+                <span class="num">Special</span>
+                <span class="title">뮤지컬 머피 스페셜 어서</span>
+                </a>
+            </li>
+            </ol>
+        </div>
+    </section>
+
+    <section class="brochure-panel brochure-floor brochure-floor2 panel-floor2">
+    <div class="page page-floor">
+        <h1 class="page-title">Floor<br>Map</h1>
+        <p class="floor-label">2F</p>
+
+        <div class="floor-map floor-map-2f">
+        <img src="img/Floor Map 2F.svg" alt="Floor Map 2F" class="floor-map-image">
+
+        <button class="floor-zone zone-4"
+                data-href="burnthewitch.html"
+                aria-label="존 4"></button>
+
+        <button class="floor-zone zone-5"
+                data-href="deca.html"
+                aria-label="존 5"></button>
+
+        <button class="floor-zone zone-6"
+                data-href="cabin.html"
+                aria-label="존 6"></button>
+        </div>
+
+        <ol class="floor-list">
+        <li>
+            <a href="burnthewitch.html">
+            <span class="num">4</span>
+            <span class="title">뮤지컬 번 더 위치</span>
+            <span class="desc">이 세상에는 레몬이 엄청 많아</span>
+            </a>
+        </li>
+        <li>
+            <a href="deca.html">
+            <span class="num">5</span>
+            <span class="title">뮤지컬 데카브리</span>
+            <span class="desc">낡은 외투에서 시작된 우리의 이야기</span>
+            </a>
+        </li>
+        <li>
+            <a href="cabin.html">
+            <span class="num">6</span>
+            <span class="title">뮤지컬 캐빈</span>
+            <span class="desc">무엇을 기억하는지가 나를 만든다는 사실</span>
+            </a>
+        </li>
+        </ol>
+    </section>
+
+
+    <section class="brochure-panel brochure-info panel-info">
+        <div class="page page-info">
+            <h1 class="page-title">Information</h1>
+
+            <div class="info-block">
+            <h2 class="page-subtitle">Notice</h2>
+            <p class="page-text">
+                본 전시는 개인 프로젝트로 기획, 제작되었습니다.<br>
+                모든 사진의 저작권은 촬영자에게 있으며,<br>
+                무단 캡처 및 2차 배포를 금합니다.
+            </p>
+            </div>
+
+            <div class="info-block">
+            <h2 class="page-subtitle">Photography &amp; Design</h2>
+            <p class="page-text">
+                HSW Archive (@hsw_archive0124)
+            </p>
+            </div>
+
+            <div class="info-block">
+            <h2 class="page-subtitle">Contact</h2>
+            <p class="page-text">
+                Email : hswarchive0124@gmail.com
+            </p>
+            </div>
+
+            <div class="info-block">
+            <h2 class="page-subtitle">More About</h2>
+            <p class="page-text">
+                <a href="https://hongsungwon.space" target="_blank" rel="noopener">
+                    hongsungwon Archive Page</a>
+            </p>
+            </div>
+        </div>
+        </section>
+    </div>
+    </section>
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
