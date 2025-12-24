@@ -597,3 +597,22 @@ body {
     gap: clamp(16px, 2vh, 24px);
   }
 }
+
+.page-guide { position: relative; }
+
+.mobile-swipe-hint { display: none; }
+
+@media (max-width: 768px) {
+  .mobile-swipe-hint{
+    display: block;
+    position: absolute;
+    right: 20px;
+    bottom: 24px;
+    font-size: 15px;
+    letter-spacing: 0.12em;
+    color: #000;
+    opacity: 0.8;
+    pointer-events: none;
+    z-index: 10;
+  }
+}
