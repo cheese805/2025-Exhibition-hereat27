@@ -103,18 +103,19 @@ body {
 
 @media (max-width: 375px) {
   .hero-lead {
-    font-size: 12px;
+    font-size: 10px;
+    line-height: 1.7;
     margin-bottom: 12px;
   }
 
   .hero-body {
-    font-size: 11px;
+    font-size: 7px;
     line-height: 1.7;
     margin-bottom: 16px;
   }
 
   .hero-quote {
-    font-size: 10px;
+    font-size: 8px;
     letter-spacing: 0.16em;
   }
 }
