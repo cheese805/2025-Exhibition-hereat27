@@ -4,6 +4,8 @@
   src: url("./SUIT-Variable.woff2") format("woff2-variations");
 }
 
+* { -webkit-tap-highlight-color: transparent; }
+
 *,
 *::before,
 *::after {
